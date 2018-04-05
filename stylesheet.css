@@ -1,39 +1,58 @@
 body {
-  font-family:"Gotham", sans-serif;
-  font-size: 15px;
+  font-family:"Gotham-light", sans-serif;
+  font-size: 10px;
+  line-height: 150%;
   background: linear-gradient(#a3bfdb, #254660);
-  color:#022035;
+  color:#FAE694;
   max-width:100%;
+}
+nav {
+  padding-bottom: 10px;
+  float: right;
+  position:fixed;
 }
 .intro {
   display:block;
   text-align:left;
   max-width: 35%;
+  margin-left: 35%;
 }
 .caption {
   font-family:"Gotham", sans-serif;
   font-size: 15px;
   color:#022035;
-  max-width:18%;
+  max-width:;
 }
 table {
-  margin-left:18%;
+  margin-left:15%;
 }
 td {
-  padding-right: 40px;
-  padding-left: 20px;
-  max-width: 300px;
+  max-width: 480px;
   vertical-align: top;
   text-align:left;
-  margin-left: 18%;
+  padding-right:40px;
 }
 .center {
   display:block;
   text-align:center;
 }
+.cell {
+  max-width: 160px;
+}
+.longp  {
+  max-width: 380px;
+}
 img {
-  padding-right:30px;
+  padding-right:20px;
 }
 video {
-  padding-right:30px;
+  padding-right:20px;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.columnr {
+    float: right;
+    width: 50%;
 }
