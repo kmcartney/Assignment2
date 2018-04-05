@@ -1,0 +1,39 @@
+body {
+  font-family:"Gotham", sans-serif;
+  font-size: 15px;
+  background: linear-gradient(#a3bfdb, #254660);
+  color:#022035;
+  max-width:100%;
+}
+.intro {
+  display:block;
+  text-align:left;
+  max-width: 35%;
+}
+.caption {
+  font-family:"Gotham", sans-serif;
+  font-size: 15px;
+  color:#022035;
+  max-width:18%;
+}
+table {
+  margin-left:18%;
+}
+td {
+  padding-right: 40px;
+  padding-left: 20px;
+  max-width: 300px;
+  vertical-align: top;
+  text-align:left;
+  margin-left: 18%;
+}
+.center {
+  display:block;
+  text-align:center;
+}
+img {
+  padding-right:30px;
+}
+video {
+  padding-right:30px;
+}
